@@ -11,3 +11,6 @@ I am a junior frontend engineer with strong technical skills, aiming to become a
 
 ## Education
 South Dakota State University
+
+## Git
+mpshenov (https://github.com/mpshenov)

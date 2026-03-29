@@ -4,9 +4,48 @@ body {
 }
 
 h1 {
+    font-size: 44px;
+}
+
+h2 {
     font-size: 36px;
 }
 
-p {
-    font-size: 18px;
+h3 {
+    font-size: 28px; 
 }
+
+p, li, a, code {
+    font-size: 24px;
+}
+
+header, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.large-img {
+
+    height: 400px;
+    object-fit: contain;
+}
+
+.small-img {
+    width: 200px;
+    height: 100px;
+}
+
+footer {
+    background-color: lightblue;
+    color: black;
+}
+
+

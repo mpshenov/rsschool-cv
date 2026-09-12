@@ -1,0 +1,125 @@
+:root {
+    --screen-width: 1280px;
+    --content-width: 1216px;
+
+    --header-and-footer-background-color: rgba(48, 25, 52, 1);
+    --primary-background-color: rgba(235, 242, 220, 0.7);
+    --primary-font-family: "Times New Roman", Times, serif;
+
+    --header-and-footer-font-color: white;
+
+    --h1-size: 36px;
+    --h2-size: 30px;
+    --h3-size: 24px;
+    --primary-font-size: 18px;
+}
+
+h1 {
+    font-size: var(--h1-size);
+}
+
+h2 {
+    font-size: var(--h2-size);
+}
+
+h3 {
+    font-size: var(--h3-size);
+}
+
+li, b, p, a {
+    font-size: var(--primary-font-size);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--primary-background-color);
+    font-family: var(--primary-font-family);
+}
+
+#body-container {
+    max-width: var(--screen-width);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: var(--header-and-footer-background-color);
+    color: var(--header-and-footer-font-color);
+    width: 100vw;
+
+    max-width: var(--screen-width);
+}
+
+#header-container {
+    max-width: var(--content-width);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navigation-menu ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#navigation-menu a {
+    display: block;
+    text-decoration: none;
+}
+
+main {
+
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: var(--content-width);
+}
+
+footer {
+    background-color: var(--header-and-footer-background-color);
+    color: var(--header-and-footer-font-color);
+    width: 100vw;
+
+    max-width: var(--screen-width);
+}
+
+#footer-container {
+    max-width: var(--content-width);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#rsschool-logo {
+    background-color: white;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}

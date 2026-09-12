@@ -3,8 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <script src="script.js" defer></script>
+    <title>My CV</title>
 </head>
 <body>
+    <div id="body-container">
+        <header>
+            <div id="header-container">
+                <h1>My CV</h1>
+                <nav id="navigation-menu">
+                    <ul>
+                        <li><a href="#about-me">About</a></li>
+                        <li><a href="#contact-information">Contact Information</a></li>
+                        <li><a href="#work-experience">Work Experience</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#code-example">Code example</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#languages">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div id="main-container">
+
+                <section id="about-me">
+                    <h2>About me</h2>
+                        <h3>Mansur Pshenov</h3>
+                        <img src="photoes/my-photo.png" width="200" height="250" alt="my photo">
+                        <p><strong>Motivated React Developer</strong> focused on building fast, scalable, and user-friendly web applications. Skilled in clean code principles, component-driven development, and performance optimization. Eager to bring strong JavaScript/React foundations to a professional team and rapidly master new technologies.</p>
+                </section>
+
+                <section id="contact-information">
+                    <h2>Contact Information</h2>
+                    <ul>
+                        <li><b>Email:</b> <a href="mailto:mansurpshenov99@gmail.com">mansurpshenov99@gmail.com</a></li>
+                        <li><b>Phone: </b><a href="tel:+770155534**">+770155534**</a></li>
+                        <li><b>Github: </b><a href="https://github.com/mpshenov">My Github</a></li>
+                    </ul>
+                </section>
+
+                <section id="work-experience">
+                    <h2>Work Experience</h2>
+                        <h3><strong>Frontend Developer (Personal & Educational Projects)</strong>| 2025 — Present</h3>
+                        <ul>
+                            <li><b>E-Commerce Marketplace</b>
+                                <ul>
+                                    <li><b>Description: </b>Developed a responsive SPA marketplace with product filtering, shopping cart, and checkout features.</li>
+                                    <li><b>Stack: </b>React, TypeScript, Redux Toolkit, Tailwind CSS, REST API via Axios.</li>
+                                    <li><b>Key Result: </b>Optimized UI rendering using useMemo/useCallback and implemented persistent state via LocalStorage.</li>
+                                </ul>
+                            </li>
+                        </ul> 
+                </section>
+
+                <section id="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li><b>Languages: </b>JavaScript (ES6+), TypeScript, HTML5, CSS3 (Sass/SCSS)</li>
+                        <li><b>Frameworks & Libraries: </b>React.js, Next.js</li>
+                        <li><b>Tools & Build: </b>Git, GitHub/GitLab</li>
+                    </ul>
+                </section>
+                
+                <section id="code-example">
+                    <h2>Code example</h2>
+                    <pre>
+                        <code>
+                    function multiply(a, b) {
+                        return a * b;
+                    }
+                        </code>
+                    </pre>
+                </section>
+                
+                <section id="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li><b>Bachelor’s Degree — SDSU, 2023 (Mechanical Engineering)</b></li>
+                    </ul>
+                </section>
+                
+                <section id="languages">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li><b>Russian: </b>Native</li>
+                        <li><b>Kazakh: </b>Native</li>
+                        <li><b>English: </b>C2</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <div id="footer-container">
+                <a href="https://github.com/mpshenov">My Github</a>
+                <p>© <span data-js-current-year></span>. All rights reserved.</p>
+                <a href="https://rs.school/courses/short-track">
+                    <img src="photoes/logo-rsschool3.png" alt="RSschool logo" loading="lazy" width="120" height="43" id="rsschool-logo">
+                </a>
+            </div>
+        </footer>
+        
+    </div>
+    
 </body>
 </html>
